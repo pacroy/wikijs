@@ -7,7 +7,7 @@
 
 This openSAP course creates ripples in SAP community!
 
-[image:42 size:large]
+![Opensap Wtc 1 Jpg](/uploads/abap/opensap-wtc-1-jpg.jpg "Opensap Wtc 1 Jpg")
 
 - [ABAPosaurus Takes openSAP Course](https://blogs.sap.com/2018/03/19/abaposaurus-takes-opensap-course/)
 - [Why OpenSAP started ABAP Unit Test course now – My 2 Cents](https://blogs.sap.com/2018/03/19/why-opensap-started-abap-unit-test-course-now-my-2-cents/)
@@ -18,7 +18,7 @@ This openSAP course creates ripples in SAP community!
 
 The SAP community is looking forward to see ABAP in the cloud platform and its benefits.
 
-[image:41 size:orig]
+![Abap 751](/uploads/abap/abap-751.jpg "Abap 751")
 
 - [ABAP and the Cloud - Introducing ABAP 7.52 and ABAP in SAP Cloud Platform](https://www.sap.com/documents/2018/01/ac383ce1-ee7c-0010-82c7-eda71af511fa.html) by Karl Kessler - SAP Insider
 - [Overview of ABAP in SAP Cloud Platform](https://blogs.sap.com/2017/09/26/overview-of-abap-in-sap-cloud-platform/) by Florian Wahl
@@ -28,7 +28,7 @@ The SAP community is looking forward to see ABAP in the cloud platform and its b
 
 ABAP app goes web-based with OData and Hana.
 
-[image:40 size:large]
+![Abap New Model](/uploads/abap/abap-new-model.jpg "Abap New Model")
 
 - [About ABAP Programming Model for SAP Fiori](https://help.sap.com/doc/cc0c305d2fab47bd808adcad3ca7ee9d/7.5.6/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) - SAP Help
 - [Be prepared for the new ABAP programming model in SAP S/4HANA](https://blogs.sap.com/2017/12/07/be-prepared-for-the-new-abap-programming-model-in-sap-s4hana/) by Carine Tchoutouo Djomo
