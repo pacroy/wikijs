@@ -86,7 +86,7 @@ id_rsa.pub
 
 ![Virtual Network](/uploads/docker/virtual-network.png "Virtual Network")
 
-
+![Swarm Worker Ip](/uploads/docker/swarm-worker-ip.png "Swarm Worker Ip")
 
 3) Use command `docker swarm join-token worker` to get the join token.
 
