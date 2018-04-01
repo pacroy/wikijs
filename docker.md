@@ -225,7 +225,7 @@ When rebuilding the image, only image layer that changed are rebuilt.
 
 ## Dockerfile Exercise
 
-```
+```dockerfile
 # Instructions from the app developer
 # - you should use the 'node' official image, with the alpine 6.x branch
 FROM node:6-alpine
@@ -400,7 +400,21 @@ Source: http://www.yaml.org/refcard.html
 
 ## Docker Compose YAML Template
 
-<script src="https://gist.github.com/pacroy/8eb9c88f2477c9e3f6e6734f22fa2521.js"></script>
+```
+version: '3.1'  # if no version is specificed then v1 is assumed. Recommend v2 minimum
+
+services:  # containers. same as docker run
+  servicename: # a friendly name. this is also DNS name inside network
+    image: # Optional if you use build:
+    command: # Optional, replace the default CMD specified by the image
+    environment: # Optional, same as -e in docker run
+    volumes: # Optional, same as -v in docker run
+  servicename2:
+
+volumes: # Optional, same as docker volume create
+
+networks: # Optional, same as docker network create
+```
 
 | Notation | Description |
 |---|---|
@@ -416,7 +430,20 @@ Source: http://www.yaml.org/refcard.html
 
 ## Sample Docker Compose YAML
 
-<script src="https://gist.github.com/pacroy/e4ec729c4d5f3eab426f0285f078c21d.js"></script>
+```
+version: '2'
+
+# same as 
+# docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - '80:4000'
+```
 
 # Useful Commands
 
