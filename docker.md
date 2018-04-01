@@ -259,7 +259,7 @@ CMD [ "tini", "--", "node", "./bin/www" ]
 
 # Data Volume
 
-![](uploads/docker/container-life-persistent.jpg")
+![](uploads/docker/container-life-persistent.jpg)
 
 ## VOLUME in Dockerfile
 
