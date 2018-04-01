@@ -5,7 +5,7 @@
 
 ## First App
 
-[image:61 size:large]
+![First App](/uploads/k-8-s/first-app.png "First App")
 
 Clone this repo: [https://github.com/wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 
@@ -166,4 +166,3 @@ pod "busybox" deleted
 
 # Load Balancer
 
-[image:60 size:large]
