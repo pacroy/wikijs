@@ -155,7 +155,7 @@ Because containers are always moving, come and go, all the times. Should not rel
 
 # Docker Image
 
-[image:59 size:large]
+
 
 Visit [Docker Hub](https://hub.docker.com/)
 
