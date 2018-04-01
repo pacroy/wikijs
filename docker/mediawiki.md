@@ -26,35 +26,35 @@ $ sudo docker network connect mediawiki mediawiki-smtp
 
 2) Click to set up wiki
 
-
+![Mediawiki First Page](/uploads/docker/mediawiki-first-page.png "Mediawiki First Page")
 
 3) Select language and click *Continue*
 
-[image:74 size:large]
+![Wiki Language](/uploads/docker/wiki-language.png "Wiki Language")
 
 4) Leave default and click *Continue*
 
-[image:75 size:large]
+![Wiki Env Check](/uploads/docker/wiki-env-check.png "Wiki Env Check")
 
 5) Input your MySQL container name and its root password
 
-[image:76 size:large]
+![Wiki Db Setup](/uploads/docker/wiki-db-setup.png "Wiki Db Setup")
 
 6) Leave default and click *Continue*
 
-[image:77 size:large]
+![Wiki Db Settings](/uploads/docker/wiki-db-settings.png "Wiki Db Settings")
 
 7) Assign your wiki name and create your wiki account
 
-[image:78 size:large]
+![Wiki Name Account](/uploads/docker/wiki-name-account.png "Wiki Name Account")
 
 8) Click *Continue* to start configure
 
-[image:79 size:large]
+![Wiki Install](/uploads/docker/wiki-install.png "Wiki Install")
 
 9) Once done, click *Continue* again to download **LocalSettings.php** file.
 
-[image:80 size:large]
+![Wiki Install Completed](/uploads/docker/wiki-install-completed.png "Wiki Install Completed")
 
 10) Transfer this file into the container
 
@@ -64,7 +64,7 @@ sudo docker cp LocalSettings.php mediawiki:/var/www/html
 
 11) You wiki is ready to use at `http://<host>:8080/index.php/Main_Page`
 
-[image:82 size:large]
+![Wiki Main Page](/uploads/docker/wiki-main-page.png "Wiki Main Page")
 
 ## Email Function 
 
