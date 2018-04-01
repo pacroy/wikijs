@@ -4,3 +4,8 @@
 ![Wiki](/uploads/logo/wiki.png "Wiki"){.pagelogo}
 ## Sections
 - [ABAP](abap)
+
+
+## My Blogs
+
+Visit my blogs at [chairat.me](http://chairat.me)
