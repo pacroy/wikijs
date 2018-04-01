@@ -84,9 +84,13 @@ Create a new NGINX container named proxy and run bash command right after and ke
 docker container run -it --name ubuntu ubuntu
 ```
 
-> apt-get update  
-> apt-get install -y curl  
-> curl google.com  
+Try more commands:
+
+```
+apt-get update  
+apt-get install -y curl  
+curl google.com  
+```
 
 | Command | Description |
 |---|---|
