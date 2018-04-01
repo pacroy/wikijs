@@ -11,4 +11,5 @@
 
 ## My Blogs
 
-Visit my blogs at [chairat.me](http://chairat.me)
+- [chairat.me](http://chairat.me)
+- [Scrum and XP from the Trenches](https://pacroy.github.io/scrum/)
