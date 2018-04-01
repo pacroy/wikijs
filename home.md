@@ -1,7 +1,7 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: Welcome to Wiki.chairat.me! -->
 
-![Wiki](/uploads/logo/wiki.png "Wiki"){.pagelogo}
+![Wiki](/uploads/logo/logo-96.png "Wiki"){.pagelogo}
 ## Sections
 - [ABAP](abap)
 - [DevOps](devops)
