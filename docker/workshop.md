@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Commands, links, snippets, etc. -->
 
 # Behind Nginx Server
-Add the following to `/etc/nginx/conf.d/default.conf
+Add the following *location* to `/etc/nginx/conf.d/default.conf`
 
 ```conf
     location /wetty {
