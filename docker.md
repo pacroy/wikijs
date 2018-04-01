@@ -454,6 +454,7 @@ services:
 | `lsb_release -a` | Print linux distro and version | [askubuntu.com](https://askubuntu.com/questions/686239/how-do-i-check-the-version-of-ubuntu-i-am-running) |
 | `cat /etc/*release` | Print linux distro and version | [whatsmyos.com](http://whatsmyos.com/) |
 | `docker ps -a --filter volume=VOLUME_NAME_OR_MOUNT_POINT` | Determine what containers use the docker volume |
+| `openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 30000 -nodes` | Generate self-signed certificates | [krishnasrinivas/wetty](https://hub.docker.com/r/krishnasrinivas/wetty/) |
 
 # Useful Links
 
