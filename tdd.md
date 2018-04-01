@@ -1,6 +1,10 @@
 <!-- TITLE: Test-Driven Development (TDD) -->
-<!-- SUBTITLE: Reference of my study about TDD -->
+<!-- SUBTITLE: References of my study about TDD -->
 
+# Sections
+- [Exercises](tdd/exercises)
+- [Knowledge](tdd/knowledge)
+- [Training](tdd/training)
 # Concept
 
 ## Definitions
