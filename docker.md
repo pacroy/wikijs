@@ -155,7 +155,8 @@ Because containers are always moving, come and go, all the times. Should not rel
 
 # Docker Image
 
-![what_is_docker_image](/uploads/docker/what_is_docker_image.jpg "what_is_docker_image")
+![](/uploads/docker/what_is_docker_image.jpg)
+
 
 Visit [Docker Hub](https://hub.docker.com/)
 
