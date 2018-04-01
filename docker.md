@@ -401,7 +401,7 @@ Source: http://www.yaml.org/refcard.html
 
 ## Docker Compose YAML Template
 
-```
+```yaml
 version: '3.1'  # if no version is specificed then v1 is assumed. Recommend v2 minimum
 
 services:  # containers. same as docker run
@@ -431,7 +431,7 @@ networks: # Optional, same as docker network create
 
 ## Sample Docker Compose YAML
 
-```
+```yaml
 version: '2'
 
 # same as 
