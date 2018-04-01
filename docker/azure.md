@@ -9,17 +9,17 @@
 
 2) Fill in the form and click *Purchase* to start deployment
 
+![Docker Template Azure](/uploads/docker/docker-template-azure.png "Docker Template Azure")
 
-
-[image:64 size:large]
+![Agree And Purchase](/uploads/docker/agree-and-purchase.png "Agree And Purchase")
 
 3) It take only one or two minutes to complete.
 
-[image:65 size:large]
+![Deploy In Progress](/uploads/docker/deploy-in-progress.png "Deploy In Progress")
 
 4) Here is what you see in the resource group
 
-[image:66 size:large]
+![Resource Group](/uploads/docker/resource-group.png "Resource Group")
 
 > For more information, visit https://docs.docker.com/docker-for-azure/#configuration
 
@@ -27,11 +27,11 @@
 
 1) Click on *externalSSHLoadBalancer*
 
-[image:67 size:large]
+![External Ssh Load Balancer](/uploads/docker/external-ssh-load-balancer.png "External Ssh Load Balancer")
 
 2) Go to *Inbound NAT rules* and take note of IP and port of the manager you want to connect
 
-[image:68 size:large]
+
 
 3) Connect to the manager using `ssh`
 
