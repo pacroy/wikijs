@@ -155,7 +155,7 @@ Because containers are always moving, come and go, all the times. Should not rel
 
 # Docker Image
 
-![](uploads/docker/what_is_docker_image.jpg)
+![](uploads/docker/what-is-docker-image.jpg.jpg)
 
 
 Visit [Docker Hub](https://hub.docker.com/)
@@ -259,7 +259,7 @@ CMD [ "tini", "--", "node", "./bin/www" ]
 
 # Data Volume
 
-![](uploads/docker/container_life_persistent.jpg")
+![](uploads/docker/container-life-persistent.jpg")
 
 ## VOLUME in Dockerfile
 
