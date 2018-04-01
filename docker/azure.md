@@ -31,7 +31,7 @@
 
 2) Go to *Inbound NAT rules* and take note of IP and port of the manager you want to connect
 
-
+![Nat Rule Ip Port](/uploads/docker/nat-rule-ip-port.png "Nat Rule Ip Port")
 
 3) Connect to the manager using `ssh`
 
@@ -39,7 +39,7 @@
 ssh -p <port> docker@<ip>
 ```
 
-[image:69 size:large]
+![Ssh Docker](/uploads/docker/ssh-docker.png "Ssh Docker")
 
 > For more information, visit https://docs.docker.com/docker-for-azure/deploy/#connecting-to-your-manager-nodes-using-ssh
 
@@ -84,9 +84,9 @@ id_rsa.pub
 
 2) Next, you need to know the IP of your worker. Go to Virtual Network to see the IP of your worker.
 
-[image:71 size:large]
+![Virtual Network](/uploads/docker/virtual-network.png "Virtual Network")
 
-[image:72 size:large]
+
 
 3) Use command `docker swarm join-token worker` to get the join token.
 
