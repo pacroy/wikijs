@@ -62,4 +62,9 @@ What if we want to change some wordings:
 
 Does your code has good maintainability? Can you change these words without touching existing codes?
 
-[Click here to find solution](fizzbuzz/answer)
+# Solution
+
+Please check out a solution on GitHub repository per below links. See how to trace code changes step-by-step from [this blog](https://medium.com/pacroy/how-to-use-git-client-to-trace-commit-history-4ebfb63d467e).
+
+- [ABAP](https://github.com/pacroy/tdd-ex01-fizzbuzz-abap)
+- [Java](https://github.com/pacroy/tdd-ex01-fizzbuzz-java)
