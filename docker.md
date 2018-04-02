@@ -455,6 +455,7 @@ services:
 | `cat /etc/*release` | Print linux distro and version | [whatsmyos.com](http://whatsmyos.com/) |
 | `docker ps -a --filter volume=VOLUME_NAME_OR_MOUNT_POINT` | Determine what containers use the docker volume |
 | `openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 30000 -nodes` | Generate self-signed certificates | [krishnasrinivas/wetty](https://hub.docker.com/r/krishnasrinivas/wetty/) |
+| `ssh-keygen -t rsa -b 4096 -C “your_comment_or_email”` | Generate SSH key | [Connecting to GitHub with SSH](https://medium.com/pacroy/connecting-to-github-with-ssh-f54248ccf30d) |
 
 # Useful Links
 
