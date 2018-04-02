@@ -1,7 +1,12 @@
 <!-- TITLE: Docker Workshop -->
 <!-- SUBTITLE: Commands, links, snippets, etc. -->
 
-# Behind Nginx Server
+# Playing with Docker
+- [play-with-docker.com](https://labs.play-with-docker.com) - requires WSS
+
+# Extras
+## Container Behind Nginx Server
+
 Add the following *location* to `/etc/nginx/conf.d/default.conf`
 
 ```conf
