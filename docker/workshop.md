@@ -1,6 +1,10 @@
 <!-- TITLE: Docker Workshop -->
 <!-- SUBTITLE: Commands, links, snippets, etc. -->
 
+# Course Materials
+- [Docker Cheatsheet 08 09 2016](/uploads/docker/docker-cheatsheet-08-09-2016-0.pdf "Docker Cheatsheet 08 09 2016 0")
+- [GitHub repository for examples](https://github.com/bretfisher/udemy-docker-mastery)
+
 # Playing with Docker
 - [play-with-docker.com](https://labs.play-with-docker.com) - requires WSS
 
