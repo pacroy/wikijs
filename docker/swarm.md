@@ -32,3 +32,6 @@ container (and only that container)?
 ![Nginx On Swarm](/uploads/swarm/nginx-on-swarm.png "Nginx On Swarm")
 
 ![Swarm Architecture](/uploads/swarm/swarm-architecture.png "Swarm Architecture")
+# Swarm Initialization
+`docker info | grep Swarm` See whether swarm is active
+`docker swarm init` Activate swarm mode
