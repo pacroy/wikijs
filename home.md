@@ -5,9 +5,11 @@
 ## Sections
 - [ABAP](abap)
 - [DevOps](devops)
-- [Docker](docker)
+- Docker
   - [Docker Basic](docker)
+  - [Docker Compose](compose)
   - [Docker Swarm](docker/swarm)
+
   - [Docker Workshop](docker/workshop)
   - [Docker on Azure](docker/azure)
   - [Mediawiki](docker/mediawiki)
