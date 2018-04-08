@@ -9,7 +9,7 @@
   - [Docker Basic](docker)
   - [Docker Swarm](docker/swarm)
   - [Docker Workshop](docker/workshop)
-	- [Docker on Azure](docker/azure)
+  - [Docker on Azure](docker/azure)
 	- [Mediawiki](docker/mediawiki)
 	- [Wiki.js](https://hub.docker.com/r/pacroy/wikijs/)
 - [Kubenetes](k8s)
