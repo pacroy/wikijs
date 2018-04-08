@@ -24,4 +24,11 @@ container (and only that container)?
     - docker service
     - docker stack
     - docker secret
+# Swarm Architecture
+![Swarm Mode](/uploads/swarm/swarm-mode.png "Swarm Mode")
 
+![Swarm Topology](/uploads/swarm/swarm-topology.png "Swarm Topology")
+
+![Nginx On Swarm](/uploads/swarm/nginx-on-swarm.png "Nginx On Swarm")
+
+![Swarm Architecture](/uploads/swarm/swarm-architecture.png "Swarm Architecture")
