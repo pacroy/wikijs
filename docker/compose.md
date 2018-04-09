@@ -108,3 +108,37 @@ Clone https://github.com/BretFisher/udemy-docker-mastery/tree/master/compose-sam
 `docker-compose ps` to see list of containers
 `docker-compose top` to see list of processes
 `docker-compose down` to stop and remove the service
+# Assignment: Writing A Compose File
+- Build a basic compose file for a Drupal content management system website. Docker Hub is your friend
+- Use the `drupal` image along with the `postgres` image
+- Use ports to expose Drupal on 8080 so you can localhost:8080
+- Be sure to set `POSTGRES_PASSWORD` for postgres
+- Walk though Drupal setup via browser
+- Tip: Drupal assumes DB is `localhost`, but it's service name
+- Extra Credit: Use volumes to store Drupal unique data
+
+## Answer
+```yml
+version: '2'
+
+services: 
+  drupal:
+    image: drupal
+    ports: 
+      - 8080:80
+    volumes: 
+      - drupal-modules:/var/www/html/modules
+      - drupal-profiles:/var/www/html/profiles
+      - drupal-sites:/var/www/html/sites
+      - drupal-themes:/var/www/html/themes
+  postgres:
+    image: postgres
+    environment: 
+      - POSTGRES_PASSWORD=yourpasswd
+
+volumes: 
+  drupal-modules:
+  drupal-profiles:
+  drupal-sites:
+  drupal-themes:
+```
