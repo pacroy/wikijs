@@ -7,7 +7,7 @@
 - [DevOps](devops)
 - Docker
   - [Docker Basic](docker)
-  - [Docker Compose](compose)
+  - [Docker Compose](docker/compose)
   - [Docker Swarm](docker/swarm)
 
   - [Docker Workshop](docker/workshop)
