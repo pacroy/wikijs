@@ -36,5 +36,57 @@ volumes: # Optional, same as docker volume create
 
 networks: # Optional, same as docker network create
 
+```
+## Example 1
+This create a Jekyll service.
+```yml
+version: '2'
+
+# same as 
+# docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - '80:4000'
 
 ```
+## Example 2
+This creates a wordpress service.
+```yml
+version: '2'
+
+services:
+
+  wordpress:
+    image: wordpress
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: example
+      WORDPRESS_DB_PASSWORD: examplePW
+    volumes:
+      - ./wordpress-data:/var/www/html
+
+  mysql:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: examplerootPW
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: example
+      MYSQL_PASSWORD: examplePW
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
+	
+```
+## Useful Links
+- [docker-compose.yml sample for Ghost (A web log) with load-balanced MySQL](https://github.com/BretFisher/udemy-docker-mastery/blob/master/compose-sample-1/compose-3.yml)
+- [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/)
