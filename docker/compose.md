@@ -90,3 +90,21 @@ volumes:
 ## Useful Links
 - [docker-compose.yml sample for Ghost (A web log) with load-balanced MySQL](https://github.com/BretFisher/udemy-docker-mastery/blob/master/compose-sample-1/compose-3.yml)
 - [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/)
+# Docker Compose CLI
+- CLI tool comes with Docker for Windows/Mac, but separate download for Linux
+- Not a production-grade tool but ideal for local development and test
+- Two most common commands are
+	- `docker-compose up` # setup volumes/networks and start all containers
+	- `docker-compose down` # stop all containers and remove cont/vol/net
+- If all your projects had a `Dockerfile` and `docker-compose.yml` then "new developer onboarding" would be:
+	- `git clone github.com/some/software`
+	- `docker-compose up`
+
+## Demo
+Clone https://github.com/BretFisher/udemy-docker-mastery/tree/master/compose-sample-2
+`docker-compose up` for running in the foreground
+`docker-compose up -d` for running in the background
+`docker-compose logs` to see the log
+`docker-compose ps` to see list of containers
+`docker-compose top` to see list of processes
+`docker-compose down` to stop and remove the service
