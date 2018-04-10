@@ -31,3 +31,4 @@
 ![Write Testable Codes](/uploads/abap/write-testable-codes.png "Write Testable Codes")
 
 # Test Doubles
+![Test Doubles Terminology](/uploads/abap/test-doubles-terminology.png "Test Doubles Terminology")
