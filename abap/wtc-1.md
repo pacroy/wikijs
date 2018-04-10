@@ -7,9 +7,15 @@
 # Unit Test Design and Tips
 ![What Cases To Cover](/uploads/abap/what-cases-to-cover.png "What Cases To Cover")
 
+**Links**
+
+- [Combinatorial Test Design](https://www.youtube.com/playlist?list=PLQeClR5qhUI_jkEnQV3LQOoY73SbySWyA)
+
 ![Tips And Tricks](/uploads/abap/tips-and-tricks.png "Tips And Tricks")
 
 ![Tips And Tricks 2](/uploads/abap/tips-and-tricks-2.png "Tips And Tricks 2")
 
 # Pair Programming
 ![Pair Programming](/uploads/abap/pair-programming.png "Pair Programming")
+# Test Isolation
+![Test Isolation](/uploads/abap/test-isolation.png "Test Isolation")
