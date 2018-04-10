@@ -19,3 +19,6 @@
 ![Pair Programming](/uploads/abap/pair-programming.png "Pair Programming")
 # Test Isolation
 ![Test Isolation](/uploads/abap/test-isolation.png "Test Isolation")
+
+![Create Interface Always](/uploads/abap/create-interface-always.png "Create Interface Always")
+
