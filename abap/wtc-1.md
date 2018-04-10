@@ -1,7 +1,7 @@
 <!-- TITLE: Writing Testable Code for ABAP -->
 <!-- SUBTITLE: Some best practices and guidelines from this Open SAP course -->
 
-[Writing Testable Code for ABAP](https://open.sap.com/courses/wtc1)
+[Writing Testable Code for ABAP | openSAP](https://open.sap.com/courses/wtc1)
 # Tests vs. Testable Codes
 ![Tests Need Testable Codes](/uploads/abap/tests-need-testable-codes.png "Tests Need Testable Codes")
 # Unit Test Design and Tips
@@ -32,3 +32,8 @@
 
 # Test Doubles
 ![Test Doubles Terminology](/uploads/abap/test-doubles-terminology.png "Test Doubles Terminology")
+
+# Dependency Lookup
+![Object Factory Class](/uploads/abap/object-factory-class.png "Object Factory Class")
+
+![Secure Injection](/uploads/abap/secure-injection.png "Secure Injection")
