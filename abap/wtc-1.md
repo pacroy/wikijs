@@ -22,3 +22,12 @@
 
 ![Create Interface Always](/uploads/abap/create-interface-always.png "Create Interface Always")
 
+# Injections
+
+![Injections](/uploads/abap/injections.png "Injections")
+
+![Test Doubles](/uploads/abap/test-doubles.png "Test Doubles")
+
+![Write Testable Codes](/uploads/abap/write-testable-codes.png "Write Testable Codes")
+
+# Test Doubles
